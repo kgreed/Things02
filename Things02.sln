@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Things02.Module", "Pets02.Module\Things02.Module.csproj", "{1EC42942-6DE5-4CE5-982F-54609B380DBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Things02.Module", "Things02.Module\Things02.Module.csproj", "{1EC42942-6DE5-4CE5-982F-54609B380DBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Things02.Module.Win", "Pets02.Module.Win\Things02.Module.Win.csproj", "{7729EF08-7AA0-4241-BEB7-205594576E9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Things02.Module.Win", "Things02.Module.Win\Things02.Module.Win.csproj", "{7729EF08-7AA0-4241-BEB7-205594576E9B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Things02.Win", "Pets02.Win\Things02.Win.csproj", "{6C901D30-91C3-4031-8790-453B9EE2984A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Things02.Win", "Things02.Win\Things02.Win.csproj", "{6C901D30-91C3-4031-8790-453B9EE2984A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
