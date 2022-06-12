@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Things02.Module", "Pets02.Module\Things02.Module.csproj", "{1EC42942-6DE5-4CE5-982F-54609B380DBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Things02.Module.Win", "Pets02.Module.Win\Things02.Module.Win.csproj", "{7729EF08-7AA0-4241-BEB7-205594576E9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Things02.Win", "Pets02.Win\Things02.Win.csproj", "{6C901D30-91C3-4031-8790-453B9EE2984A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EC42942-6DE5-4CE5-982F-54609B380DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC42942-6DE5-4CE5-982F-54609B380DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC42942-6DE5-4CE5-982F-54609B380DBE}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{1EC42942-6DE5-4CE5-982F-54609B380DBE}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{1EC42942-6DE5-4CE5-982F-54609B380DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC42942-6DE5-4CE5-982F-54609B380DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7729EF08-7AA0-4241-BEB7-205594576E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7729EF08-7AA0-4241-BEB7-205594576E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7729EF08-7AA0-4241-BEB7-205594576E9B}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{7729EF08-7AA0-4241-BEB7-205594576E9B}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{7729EF08-7AA0-4241-BEB7-205594576E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7729EF08-7AA0-4241-BEB7-205594576E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C901D30-91C3-4031-8790-453B9EE2984A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C901D30-91C3-4031-8790-453B9EE2984A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C901D30-91C3-4031-8790-453B9EE2984A}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{6C901D30-91C3-4031-8790-453B9EE2984A}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{6C901D30-91C3-4031-8790-453B9EE2984A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C901D30-91C3-4031-8790-453B9EE2984A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAD68BBB-A25C-4612-BB25-AB49A7ADF9A7}
+	EndGlobalSection
+EndGlobal
