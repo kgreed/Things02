@@ -11,37 +11,14 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using DevExpress.ExpressApp.DC;
 using DevExpress.Persistent.Base;
+using DevExpress.ExpressApp;
+using System.ComponentModel;
 
 namespace Things02.Module.BusinessObjects {
 
-    [NavigationItem("Stuff")]
-	public class Thing {
+    
 
-		[Key]
-		public int Id { get; set; }
-		public string Name { get; set; }
-
-		[Aggregated]
-		public virtual List<SubThing> SubThings { get; set; }
-
-	}
-
-	public class SubThing  
-	{
-
-		[Key]
-		public int Id { get; set; }
-		public string Name { get; set; }
-		public int ThingId { get; set; }
-        [ForeignKey("ThingId")]
-      
-		public virtual Thing Thing {get;set; }
-
-        public void Init(object parent)
-        {
-            Thing = parent as Thing;
-        }
-    }
+    
 
     // This code allows our Model Editor to get relevant EF Core metadata at design time.
     // For details, please refer to https://supportcenter.devexpress.com/ticket/details/t933891.

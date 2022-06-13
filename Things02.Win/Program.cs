@@ -28,7 +28,8 @@ namespace Things02.Win {
             }
             Tracing.Initialize();
             Things02WindowsFormsApplication winApplication = new Things02WindowsFormsApplication();
-            if(ConfigurationManager.ConnectionStrings["ConnectionString"] != null) {
+            winApplication.LinkNewObjectToParentImmediately = false;
+            if (ConfigurationManager.ConnectionStrings["ConnectionString"] != null) {
                 winApplication.ConnectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
             }
 #if EASYTEST

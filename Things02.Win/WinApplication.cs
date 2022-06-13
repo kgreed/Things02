@@ -19,7 +19,8 @@ namespace Things02.Win {
     public partial class Things02WindowsFormsApplication : WinApplication {
         public Things02WindowsFormsApplication() {
 			InitializeComponent();
-			SplashScreen = new DXSplashScreen(typeof(XafSplashScreen), new DefaultOverlayFormOptions());
+            LinkNewObjectToParentImmediately = false;
+            SplashScreen = new DXSplashScreen(typeof(XafSplashScreen), new DefaultOverlayFormOptions());
         }
         protected override void CreateDefaultObjectSpaceProvider(CreateCustomObjectSpaceProviderEventArgs args) {
             EFCoreDbContextFactory dbContextFactory = new EFCoreDbContextFactory(typeof(Things02EFCoreDbContext), args.ConnectionString,
